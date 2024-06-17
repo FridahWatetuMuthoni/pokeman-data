@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    
+  </head>
+  <body>
+    <main>
+      <section class="app">
+        <h1>Pokémon Search App</h1>
+        <section class="app-content">
+        <form class="form">
+          <label for;8="search-input">Search for pokeman Name or ID</label>
+          <section class='form-input'>
+            <input type="text" required id="search-input" />
+          <button type="submit" id="search-button">Search<button>
+          </section>
+        </form>
+        <section>
+          <section class="pokeman-info">
+            <div class="info">
+            <p id="pokemon-name">
+            </p>
+                     <span id="pokemon-id"></span>
+            <p id="weight"></p>
+            <p id="height"></p>
+            </div>
+            <img src="" id="sprite" />
+          </section>
+          <section id="types">
+          </section>
+          <section class="statistics">
+          <div class="stats">
+            <p>Base</p>
+            <p>Stats</p>
+          </div>
+          <div class="stats">
+            <p>HP:</p>
+            <p id="hp"></p>
+          </div>
+          <div class="stats">
+            <p>Attack:</p>
+            <p id="attack"></p>
+          </div>
+          <div class="stats">
+            <p>Defence:</p>
+            <p id="defense"></p>
+          </div>
+          <div class="stats">
+            <p>Sp.Attack:</p>
+            <p id="special-attack"></p>
+          </div>
+          <div class="stats">
+            <p>Sp.Defence:</p>
+            <p id="special-defense"></p>
+          </div>
+          <div class="stats">
+            <p>Speed:</p>
+            <p id="speed"></p>
+          </div>
+          </section>
+          
+        </section>
+      </section>
+      </section>
+    </main>
+	<script src="app.js"></script>
+  </body>
+</html>

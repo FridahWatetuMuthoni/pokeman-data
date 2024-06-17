@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  line-height: 1.7;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app {
+  margin: 40px 0;
+}
+
+.app h1 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.app-content {
+  width: 600px;
+  box-shadow: 0 0 5px grey;
+  padding: 30px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.form-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#search-input,
+#search-button,
+.btn {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  box-shadow: 0 0 5px grey;
+}
+
+#search-input {
+  width: 70%;
+}
+
+#search-button,
+.btn {
+  width: 100px;
+  text-transform: uppercase;
+  color: white;
+  background-color: purple;
+}
+
+.btn {
+  margin-right: 20px;
+}
+
+#types {
+  margin: 20px 0;
+}
+.pokeman-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.pokeman-info .info {
+  width: 100%;
+  color: purple;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#sprite {
+  height: auto;
+  display: none;
+  max-height: 400px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.stats p {
+  background-color: purple;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .app-content {
+    width: 95%;
+  }
+}
